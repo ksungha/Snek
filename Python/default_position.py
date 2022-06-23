@@ -7,8 +7,8 @@ snake_position = [100, 50]
 snake_body = [[100, 50], [90.50], [80, 50], [70, 50]]
 
 # fruit position
-fruit_position = [random.range(1, (win_x//10))
-                  * 10, random.range(1, (win_y//10)) * 10]
+fruit_position = [random.randrange(1, (win_x//10))
+                  * 10, random.randrange(1, (win_y//10)) * 10]
 
 fruit_spawn = True
 
