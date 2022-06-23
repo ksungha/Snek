@@ -1,5 +1,3 @@
-import pygame
-import libraries
 from libraries import *
 
 # initailize game
